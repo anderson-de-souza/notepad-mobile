@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <color name="black">#0f0f0f</color>
+    <color name="white">#ffefefef</color>
+    
+    <color name="card_background">#f7f7f7</color>
+    <color name="window_background">#f5f5f5</color>
+
+    <color name="lightingStormPrimaryColor">#263238</color>
+    <color name="lightingStormPrimaryLightColor">#4f5b62</color>
+    <color name="lightingStormPrimaryDarkColor">#000a12</color>
+    <color name="lightingStormSecondaryColor">#455a64</color>
+    <color name="lightingStormSecondaryLightColor">#718792</color>
+    <color name="lightingStormSecondaryDarkColor">#1c313a</color>
+
+    <color name="firePrimaryColor">#b71c1c</color>
+    <color name="firePrimaryLightColor">#f05545</color>
+    <color name="firePrimaryDarkColor">#7f0000</color>
+    <color name="fireSecondaryColor">#ff5722</color>
+    <color name="fireSecondaryLightColor">#ff8a50</color>
+    <color name="fireSecondaryDarkColor">#c41c00</color>
+
+
+    <color name="oceanPrimaryColor">#3d5afe</color>
+    <color name="oceanPrimaryLightColor">#8187ff</color>
+    <color name="oceanPrimaryDarkColor">#0031ca</color>
+    <color name="oceanSecondaryColor">#448aff</color>
+    <color name="oceanSecondaryLightColor">#83b9ff</color>
+    <color name="oceanSecondaryDarkColor">#005ecb</color>
+
+    <color name="naturePrimaryColor">#2e7d32</color>
+    <color name="naturePrimaryLightColor">#60ad5e</color>
+    <color name="naturePrimaryDarkColor">#005005</color>
+    <color name="natureSecondaryColor">#7cb342</color>
+    <color name="natureSecondaryLightColor">#aee571</color>
+    <color name="natureSecondaryDarkColor">#4b830d</color>
+
+    <color name="sunnySkyPrimaryColor">#2196f3</color>
+    <color name="sunnySkyPrimaryLightColor">#6ec6ff</color>
+    <color name="sunnySkyPrimaryDarkColor">#0069c0</color>
+    <color name="sunnySkySecondaryColor">#1976d2</color>
+    <color name="sunnySkySecondaryLightColor">#63a4ff</color>
+    <color name="sunnySkySecondaryDarkColor">#004ba0</color>
+
+</resources>

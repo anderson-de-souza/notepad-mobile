@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/notes"
+            android:title="@string/notes"
+            android:icon="@drawable/icon_note_multiple" />
+
+        <item
+            android:id="@+id/favorites"
+            android:title="@string/favorites"
+            android:icon="@drawable/icon_heart" />
+
+        <item
+            android:id="@+id/locked"
+            android:title="@string/locked"
+            android:icon="@drawable/icon_note_lock" />
+
+    </group>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/icon_cog" />
+
+    <item
+        android:id="@+id/info"
+        android:title="@string/info"
+        android:icon="@drawable/icon_info" />
+
+</menu>

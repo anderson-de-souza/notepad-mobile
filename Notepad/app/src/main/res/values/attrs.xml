@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="theme">
+        <attr name="text_color" format="color"/>
+        <attr name="card_background_color" format="color"/>
+        <attr name="background_color" format="color"/>
+        <attr name="colorSecondaryLight" format="color"/>
+        <attr name="toolbar_background_color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Notepad" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="text_color">@android:color/white</item>
+        <item name="background_color">@color/window_background</item>
+        <item name="card_background_color">@color/card_background</item>
+
+    </style>
+ 
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">?attr/toolbar_background_color</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@android:color/black</item>
+    </style>
+
+    <style name="NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemShapeFillColor">@drawable/selector_navigation_view_in_dark_mode</item>
+    </style>
+ 
+    <style name="SunnySky" parent="Notepad">
+        <item name="colorPrimary">@color/sunnySkyPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/sunnySkyPrimaryDarkColor</item>
+        <item name="colorSecondary">@color/sunnySkySecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/sunnySkySecondaryDarkColor</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondaryLight">@color/sunnySkyPrimaryLightColor</item>
+        <item name="toolbar_background_color">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Fire" parent="Notepad">
+        <item name="colorPrimary">@color/firePrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/firePrimaryDarkColor</item>
+        <item name="colorSecondary">@color/fireSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/fireSecondaryDarkColor</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondaryLight">@color/firePrimaryLightColor</item>
+        <item name="toolbar_background_color">?attr/colorPrimary</item>
+    </style>
+
+    <style name="LightingStorm" parent="Notepad">
+        <item name="colorPrimary">@color/lightingStormPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/lightingStormPrimaryDarkColor</item>
+        <item name="colorSecondary">@color/lightingStormSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/lightingStormSecondaryDarkColor</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondaryLight">@color/lightingStormPrimaryLightColor</item>
+        <item name="toolbar_background_color">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Nature" parent="Notepad">
+        <item name="colorPrimary">@color/naturePrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/naturePrimaryDarkColor</item>
+        <item name="colorSecondary">@color/natureSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/natureSecondaryDarkColor</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondaryLight">@color/naturePrimaryLightColor</item>
+        <item name="toolbar_background_color">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Ocean" parent="Notepad">
+        <item name="colorPrimary">@color/oceanPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/oceanPrimaryDarkColor</item>
+        <item name="colorSecondary">@color/oceanSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/oceanSecondaryDarkColor</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondaryLight">@color/oceanPrimaryLightColor</item>
+        <item name="toolbar_background_color">?attr/colorPrimary</item>
+    </style>
+
+</resources>

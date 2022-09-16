@@ -1,0 +1,12 @@
+<resources>
+ 
+ 
+    <string-array name="themes">
+        <item>@string/sunny_sky</item>
+        <item>@string/nature</item>
+        <item>@string/lighting_storm</item>
+        <item>@string/ocean</item>
+        <item>@string/fire</item>
+    </string-array>
+ 
+</resources>

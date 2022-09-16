@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:alpha="0.25" android:state_activated="true" android:color="?attr/colorSecondaryLight" />
+    <item android:alpha="0.25" android:state_checked="true" android:color="?attr/colorSecondaryLight" />
+    <item android:color="@android:color/transparent" />
+</selector>
